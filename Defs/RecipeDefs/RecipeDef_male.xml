@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>Circumcision_Infant</defName>
+    <label>Infant Circumcision</label>
+    <description>Circumcise a male baby.</description>
+    <jobString>Circumcising {0}.</jobString>
+    <workerClass>Recipe_RemoveBodyPart</workerClass>
+    <targetsBodyPart>Foreskin</targetsBodyPart>
+    <surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
+    <recipeUsers>
+      <li>HospitalBed</li>
+      <li>SleepingSpot</li>
+    </recipeUsers>
+    <effectWorking>Surgery</effectWorking>
+    <soundWorking>Recipe_Surgery</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Circumcision_Adult</defName>
+    <label>Male Circumcision</label>
+    <description>Perform a circumcision on a male pawn.</description>
+    <jobString>Circumcising {0}.</jobString>
+    <workerClass>Recipe_RemoveBodyPart</workerClass>
+    <targetsBodyPart>Foreskin</targetsBodyPart>
+    <surgerySuccessChanceFactor>0.8</surgerySuccessChanceFactor>
+    <recipeUsers>
+      <li>HospitalBed</li>
+    </recipeUsers>
+    <effectWorking>Surgery</effectWorking>
+    <soundWorking>Recipe_Surgery</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+  </RecipeDef>
+</Defs>

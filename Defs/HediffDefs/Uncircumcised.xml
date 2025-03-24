@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef>
+    <defName>Uncircumcised</defName>
+    <label>uncircumcised</label>
+    <description>A natural state of the male body.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <stages>
+      <li>
+        <statOffsets>
+          <Beauty>-99</Beauty>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BodyPartDef>
+    <defName>Genitals</defName>
+    <label>genitals</label>
+    <hitPoints>10</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <solid>false</solid>
+    <groups>
+      <li>Reproduction</li>
+    </groups>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>Foreskin</defName>
+    <label>foreskin</label>
+    <hitPoints>5</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <solid>false</solid>
+    <groups>
+      <li>Reproduction</li>
+    </groups>
+  </BodyPartDef>
+</Defs>
